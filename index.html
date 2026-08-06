@@ -10,954 +10,158 @@
 
     <meta
         name="description"
-        content="Central Iowa Mini Motors specializes in custom mini bikes, performance builds, parts, and small-engine services."
+        content="The RideCIMM custom mini bike configurator is coming soon. Choose your frame, color, 212 engine package, upgrades, and estimated build price."
     >
 
-    <title>Central Iowa Mini Motors</title>
+    <title>Coming Soon | RideCIMM</title>
 
     <link rel="stylesheet" href="styles.css">
-
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-/>
 </head>
 
-    <body>
-        <header class="site-header" id="siteHeader">
-        <div class="header-container">
+<script src="script.js"></script>
 
-            <a
-                href="#home"
-                class="brand"
-                aria-label="Central Iowa Mini Motors home"
+<body class="coming-soon-page">
+
+    <header class="coming-soon-header">
+        <div class="coming-soon-brand">
+            <img
+                src="Images/cimm-logo-racing.PNG"
+                alt="Central Iowa Mini Motors"
+                class="coming-soon-logo"
             >
-
-                <img
-                    src="Images/cimm-logo-racing.PNG"
-                    alt="Central Iowa Mini Motors"
-                    class="brand-logo"
-                >
-
-                <div class="brand-text">
-                    <span class="brand-name">Central Iowa</span>
-                    <span class="brand-subtitle">Mini Motors</span>
-                </div>
-
-            </a>
-
-            <button
-                class="mobile-menu-button"
-                id="mobileMenuButton"
-                type="button"
-                aria-label="Open navigation menu"
-                aria-expanded="false"
-                aria-controls="primaryNavigation"
-            >
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-
-            <nav
-                class="primary-navigation"
-                id="primaryNavigation"
-                aria-label="Primary navigation"
-            >
-                <a href="#home" class="navigation-link active">
-                    Home
-                </a>
-
-                <a href="#build-your-bike" class="navigation-link">
-                    Build Your Bike
-                </a>
-
-                <a href="#contact-us" class="navigation-link contact-link">
-                    Contact Us
-                </a>
-            </nav>
-
         </div>
     </header>
 
     <main>
-        <!-- Temporary sections for testing the navigation -->
+        <section class="coming-soon-section">
 
-        <section class="page-section hero-placeholder" id="home">
-            <div>
-                <p class="eyebrow">Central Iowa Mini Motors</p>
-                <h1>Built for the Ride.</h1>
-                <p>
+            <div class="coming-soon-content">
+
+                <p class="coming-soon-label">
+                    Coming Soon
                 </p>
+
+                <h1>Build Your Ride.</h1>
+
+                <p class="coming-soon-intro">
+                    The RideCIMM custom bike configurator is almost here.
+                </p>
+
+                <p>
+                    Build your custom mini bike using a selection of
+                    GoPowerSports frames designed for a 212 engine.
+                    Choose your frame, select your color, and customize
+                    your engine package.
+                </p>
+
+                <div class="coming-soon-options">
+                    <div>
+                        <span>01</span>
+                        <strong>Choose Your Frame</strong>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <strong>Pick Your Color</strong>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <strong>Select Your Engine</strong>
+                    </div>
+                </div>
+
+                <div class="engine-packages">
+                    <p>Engine options will include:</p>
+
+                    <div class="engine-package-list">
+                        <span>Stock</span>
+                        <span>Stage 2</span>
+                        <span>Stage 3</span>
+                        <span>Racing Engine</span>
+                    </div>
+                </div>
+
+                <p class="coming-soon-closing">
+                    View your estimated build price as you customize your
+                    bike, then submit your completed build for a quote.
+                </p>
+
             </div>
+
         </section>
 
- <section class="bike-builder" id="build-your-bike">
-    <div class="builder-container">
+        <section class="launch-notification">
 
-        <div class="builder-heading">
-            <p class="section-label">Step 1</p>
-            <h2>Choose Your Frame</h2>
-            <p>
-                Select the frame that will become the foundation of your custom build.
-            </p>
-        </div>
+            <div class="notification-content">
 
-        <div class="builder-progress" aria-label="Build progress">
-            <div class="progress-step active">
-                <span class="progress-number">1</span>
-                <span>Choose Your Frame</span>
-            </div>
+                <p class="coming-soon-label">
+                    Stay Updated
+                </p>
 
-            <div class="progress-line"></div>
-
-            <div class="progress-step">
-                <span class="progress-number">2</span>
-                <span>Choose Your Color</span>
-            </div>
-
-            <div class="progress-line"></div>
-
-            <div class="progress-step">
-                <span class="progress-number">3</span>
-                <span>Choose Your Engine</span>
-            </div>
-        </div>
-
-        <div class="frame-options">
-            <button
-                class="frame-card"
-                type="button"
-                data-frame="Little Rascal"
-                data-price="995"
-                aria-pressed="false"
-            >
-                <span class="frame-checkmark" aria-hidden="true"></span>
-
-                <div class="frame-image-wrapper">
-                    <img
-                        src="Images/little-rascal.webp"
-                        alt="Little Rascal mini bike frame"
-                    >
-                </div>
-
-                <div class="frame-card-content">
-                    <h3>Little Rascal</h3>
-                    <p>Compact, simple, and built for classic mini bike fun.</p>
-                    <div class="frame-price">
-                        <span>Starting at</span>
-                        <strong>$995</strong>
-                    </div>
-                </div>
-            </button>
-
-            <button
-                class="frame-card"
-                type="button"
-                data-frame="Rascal Lite"
-                data-price="995"
-                aria-pressed="false"
-            >
-                <span class="frame-checkmark" aria-hidden="true"></span>
-
-                <div class="frame-image-wrapper">
-                    <img
-                        src="Images/rascal-lite.webp"
-                        alt="Rascal Lite mini bike frame"
-                    >
-                </div>
-
-                <div class="frame-card-content">
-                    <h3>Rascal Lite</h3>
-                    <p>A lightweight frame designed for an agile, responsive ride.</p>
-                    <div class="frame-price">
-                        <span>Starting at</span>
-                        <strong>$995</strong>
-                    </div>
-                </div>
-            </button>
-
-            <button
-                class="frame-card"
-                type="button"
-                data-frame="Rascal Cruiser"
-                data-price="1295"
-                aria-pressed="false"
-            >
-                <span class="frame-checkmark" aria-hidden="true"></span>
-
-                <div class="frame-image-wrapper">
-                    <img
-                        src="Images/rascal-cruiser.webp"
-                        alt="Rascal Cruiser mini bike frame"
-                    >
-                </div>
-
-                <div class="frame-card-content">
-                    <h3>Rascal Cruiser</h3>
-                    <p>Classic proportions with a comfortable cruising stance.</p>
-                    <div class="frame-price">
-                        <span>Starting at</span>
-                        <strong>$1,295</strong>
-                    </div>
-                </div>
-            </button>
-
-            <button
-                class="frame-card"
-                type="button"
-                data-frame="Rascal GT Drag"
-                data-price="1495"
-                aria-pressed="false"
-            >
-                <span class="frame-checkmark" aria-hidden="true"></span>
-
-                <div class="frame-image-wrapper">
-                    <img
-                        src="Images/rascal-gt-drag.webp"
-                        alt="Rascal GT Drag mini bike frame"
-                    >
-                </div>
-
-                <div class="frame-card-content">
-                    <h3>Rascal GT Drag</h3>
-                    <p>A stretched performance frame made for a bold drag-bike look.</p>
-                    <div class="frame-price">
-                        <span>Starting at</span>
-                        <strong>$1,495</strong>
-                    </div>
-                </div>
-            </button>
-        </div>
-
-        <div class="step-action">
-                <button
-                    class="small-step-button"
-                    id="continueToColor"
-                    type="button"
-                >
-                    Select and Move to Next Step
-                </button>
-            </div>
-
-        </div>
-    </section>
-
-<section class="color-builder" id="color-step">
-    <div class="builder-container">
-
-        <div class="color-heading">
-            <p class="section-label">Step 2</p>
-
-            <h2>Choose Your Color</h2>
-
-            <p>
-                Select the finish for your custom mini bike.
-                Standard colors are included with your build.
-            </p>
-        </div>
-
-        <div class="color-options">
-
-            <button
-                class="color-card"
-                type="button"
-                data-color="Black"
-                data-price="0"
-                aria-pressed="false"
-            >
-                <span class="color-swatch swatch-black"></span>
-
-                <span class="color-card-name">Black</span>
-                <span class="color-card-price">Included</span>
-            </button>
-
-            <button
-                class="color-card"
-                type="button"
-                data-color="Green"
-                data-price="0"
-                aria-pressed="false"
-            >
-                <span class="color-swatch swatch-green"></span>
-
-                <span class="color-card-name">Green</span>
-                <span class="color-card-price">Included</span>
-            </button>
-
-            <button
-                class="color-card"
-                type="button"
-                data-color="Red"
-                data-price="0"
-                aria-pressed="false"
-            >
-                <span class="color-swatch swatch-red"></span>
-
-                <span class="color-card-name">Red</span>
-                <span class="color-card-price">Included</span>
-            </button>
-
-            <button
-                class="color-card"
-                type="button"
-                data-color="Blue"
-                data-price="0"
-                aria-pressed="false"
-            >
-                <span class="color-swatch swatch-blue"></span>
-
-                <span class="color-card-name">Blue</span>
-                <span class="color-card-price">Included</span>
-            </button>
-
-            <button
-                class="color-card"
-                type="button"
-                data-color="Purple"
-                data-price="0"
-                aria-pressed="false"
-            >
-                <span class="color-swatch swatch-purple"></span>
-
-                <span class="color-card-name">Purple</span>
-                <span class="color-card-price">Included</span>
-            </button>
-
-            <button
-                class="color-card"
-                type="button"
-                data-color="Pink"
-                data-price="0"
-                aria-pressed="false"
-            >
-                <span class="color-swatch swatch-pink"></span>
-
-                <span class="color-card-name">Pink</span>
-                <span class="color-card-price">Included</span>
-            </button>
-
-            <button
-                class="color-card custom-color-card"
-                type="button"
-                data-color="Custom Color"
-                data-price="0"
-                aria-pressed="false"
-            >
-                <span class="color-swatch swatch-custom"></span>
-
-                <span class="color-card-name">Custom Color</span>
-                <span class="color-card-price">Upgrade — TBD</span>
-            </button>
-
-        </div>
-
-<div class="custom-color-details" id="customColorDetails">
-    <label for="customColorRequest">
-        Describe your custom color
-    </label>
-
-    <textarea
-        id="customColorRequest"
-        name="customColorRequest"
-        rows="4"
-        placeholder="Example: metallic forest green, candy apple red, matte gray, or a specific paint code."
-    ></textarea>
-
-    <p>
-        Final pricing will be confirmed after the requested finish is reviewed.
-    </p>
-</div>
-
-<div class="step-action">
-    <button
-        class="small-step-button"
-        id="continueToEngine"
-        type="button"
-    >
-        Select and Move to Next Step
-    </button>
-</div>
-    </div>
-</section>
-
-<section class="engine-builder" id="engine-step">
-    <div class="builder-container">
-
-        <div class="engine-heading">
-            <p class="section-label">Step 3</p>
-
-            <h2>Choose Your Engine</h2>
-
-            <p>
-                Every package comes with a 212 engine.
-                Choose the performance level that fits your build.
-            </p>
-        </div>
-
-        <div class="engine-options">
-
-            <button
-                class="engine-card"
-                type="button"
-                data-engine="Stock"
-                data-price="599"
-                aria-pressed="false"
-            >
-                <div class="engine-card-top">
-                    <h3>Stock</h3>
-                    <p>Standard 212cc</p>
-                </div>
-
-                <div class="engine-price">
-                    <span>Starting at</span>
-                    <strong>$599</strong>
-                </div>
-
-                <div class="engine-includes">
-                    <p>Includes</p>
-
-                    <ul>
-                        <li>Honda Clone 212cc platform</li>
-                        <li>Factory engine components</li>
-                        <li>Factory carburetor</li>
-                        <li>Factory governor</li>
-                    </ul>
-                </div>
-            </button>
-
-            <button
-                class="engine-card"
-                type="button"
-                data-engine="Stage 2"
-                data-price="899"
-                aria-pressed="false"
-            >
-                <div class="engine-card-top">
-                    <h3>Stage 2</h3>
-                    <p>Standard 212cc</p>
-                </div>
-
-                <div class="engine-price">
-                    <span>Starting at</span>
-                    <strong>$899</strong>
-                </div>
-
-                <div class="engine-includes">
-                    <p>Includes</p>
-
-                    <ul>
-                        <li>Everything included with Stock</li>
-                        <li>Stage 2 performance upgrade</li>
-                        <li>Stage 2 intake upgrade</li>
-                        <li>Stage 2 exhaust upgrade</li>
-                    </ul>
-                </div>
-            </button>
-
-            <button
-                class="engine-card"
-                type="button"
-                data-engine="Stage 3"
-                data-price="1299"
-                aria-pressed="false"
-            >
-                <div class="engine-card-top">
-                    <h3>Stage 3</h3>
-                    <p>Standard 212cc</p>
-                </div>
-
-                <div class="engine-price">
-                    <span>Starting at</span>
-                    <strong>$1,299</strong>
-                </div>
-
-                <div class="engine-includes">
-                    <p>Includes</p>
-
-                    <ul>
-                        <li>Everything included with Stage 2</li>
-                        <li>Stage 3 internal upgrade</li>
-                        <li>Stage 3 valvetrain upgrade</li>
-                        <li>Stage 3 fuel-system upgrade</li>
-                    </ul>
-                </div>
-            </button>
-
-            <button
-                class="engine-card"
-                type="button"
-                data-engine="Racing"
-                data-price="1899"
-                aria-pressed="false"
-            >
-                <div class="engine-card-top">
-                    <h3>Racing</h3>
-                    <p>Standard 212cc</p>
-                </div>
-
-                <div class="engine-price">
-                    <span>Starting at</span>
-                    <strong>$1,899</strong>
-                </div>
-
-                 <div class="engine-includes">
-                    <p>Includes</p>
-
-                    <ul>
-                        <li>Everything included with Stage 3</li>
-                        <li>Racing internal upgrade</li>
-                        <li>Racing cylinder-head upgrade</li>
-                        <li>Competition fuel-system setup</li>
-                    </ul>
-                </div>
-            </button>
-
-        </div>
-
-        <div class="step-action">
-            <button
-                class="small-step-button"
-                id="reviewBuildButton"
-                type="button"
-            >
-                Select and Review Your Build
-            </button>
-        </div>
-
-    </div>
-</section>
-
-<section class="review-builder" id="review-step">
-    <div class="builder-container">
-
-        <div class="review-heading">
-            <p class="section-label">Build Complete</p>
-            <h2>Review My Build</h2>
-
-            <p>
-                Review your selections below. Final pricing and availability
-                will be confirmed by Central Iowa Mini Motors.
-            </p>
-        </div>
-
-<div class="review-layout">
-
-    <!-- LEFT: BIKE PREVIEW -->
-    <div class="review-bike-preview">
-        <div class="review-image-placeholder">
-
-            <img
-                id="reviewBikeImage"
-                src=""
-                alt="Your selected custom mini bike"
-                hidden
-            >
-
-            <div id="reviewPreviewMessage">
-                <span>Your Custom Mini Bike</span>
-                <strong>Preview Coming Soon</strong>
+                <h2>Get notified when the website launches.</h2>
 
                 <p>
-                    Your selected frame, color, and engine will appear here.
+                    Enter your information below and we’ll send you an
+                    email when the RideCIMM Bike Builder is ready.
                 </p>
-            </div>
 
-        </div>
-    </div>
-
-    <!-- RIGHT: LOGO -->
-    <div class="review-brand-panel">
-        <img
-            src="Images/cimm-logo-racing.PNG"
-            alt="Central Iowa Mini Motors logo"
-        >
-
-        <p>
-            Custom Mini Bikes Built in Central Iowa
-        </p>
-    </div>
-
-</div>
-
-<!-- FULL-WIDTH BUILD REQUEST FORM -->
-<form
-    class="review-summary"
-    id="buildRequestForm"
-    action="https://api.web3forms.com/submit"
-    method="POST"
->
-    <input
-        type="hidden"
-        name="access_key"
-        value="d4512a00-a867-43b8-8763-7d67044246be"
-    >
-
-    <input
-        type="hidden"
-        name="subject"
-        value="New CIMM Custom Mini Bike Build Request"
-    >
-
-    <input
-        type="hidden"
-        name="from_name"
-        value="Central Iowa Mini Motors Website"
-    >
-
-    <input
-        type="checkbox"
-        name="botcheck"
-        class="hidden-botcheck"
-        tabindex="-1"
-        autocomplete="off"
-    >
-
-    <input
-        type="hidden"
-        id="submittedFrame"
-        name="Selected Frame"
-    >
-
-    <input
-        type="hidden"
-        id="submittedColor"
-        name="Selected Color"
-    >
-
-    <input
-        type="hidden"
-        id="submittedEngine"
-        name="Selected Engine"
-    >
-
-    <input
-        type="hidden"
-        id="submittedTotal"
-        name="Estimated Total"
-    >
-
-    <input
-        type="hidden"
-        id="submittedCustomColor"
-        name="Custom Color Request"
-    >
-
-    <p class="review-summary-label">
-        Your CIMM Build
-    </p>
-
-    <div class="review-selections">
-
-        <div class="review-item">
-            <span>Frame</span>
-            <strong id="reviewFrame">Not Selected</strong>
-        </div>
-
-        <div class="review-item">
-            <span>Color</span>
-            <strong id="reviewColor">Not Selected</strong>
-        </div>
-
-        <div class="review-item">
-            <span>Engine</span>
-            <strong id="reviewEngine">Not Selected</strong>
-        </div>
-
-    </div>
-
-    <div
-        class="review-custom-color"
-        id="reviewCustomColor"
-        hidden
-    >
-        <span>Custom Color Request</span>
-
-        <strong id="reviewCustomColorText">
-            Details will be confirmed.
-        </strong>
-    </div>
-
-    <div class="review-total">
-        <span>Estimated Total</span>
-        <strong id="reviewTotal">$0</strong>
-    </div>
-
-    <p
-        class="review-price-note"
-        id="reviewPriceNote"
-    >
-        Taxes, delivery, custom fabrication, and final assembly
-        charges may affect the final price.
-    </p>
-
-    <div class="customer-details">
-
-        <div class="customer-details-heading">
-            <p class="review-summary-label">
-                Your Contact Information
-            </p>
-
-            <p>
-                Enter your information so Central Iowa Mini Motors
-                can contact you about your build.
-            </p>
-        </div>
-
-        <div class="customer-form-grid">
-
-            <div class="form-field form-field-full">
-                <label for="customerName">
-                    Full Name
-                </label>
-
-                <input
-                    type="text"
-                    id="customerName"
-                    name="Customer Name"
-                    autocomplete="name"
-                    required
+                <form
+                    class="launch-form"
+                    action="YOUR-FORMSPREE-LINK"
+                    method="POST"
                 >
-            </div>
 
-            <div class="form-field">
-                <label for="customerEmail">
-                    Email Address
-                </label>
+                    <div class="form-group">
+                        <label for="name">Name</label>
 
-                <input
-                    type="email"
-                    id="customerEmail"
-                    name="email"
-                    autocomplete="email"
-                    required
-                >
-            </div>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            autocomplete="name"
+                            required
+                        >
+                    </div>
 
-            <div class="form-field">
-                <label for="customerPhone">
-                    Phone Number
-                </label>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
 
-                <input
-                    type="tel"
-                    id="customerPhone"
-                    name="Phone Number"
-                    autocomplete="tel"
-                    required
-                >
-            </div>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            required
+                        >
+                    </div>
 
-            <div class="form-field form-field-full">
-                <label for="customerComments">
-                    Questions or Comments
-                </label>
-
-                <textarea
-                    id="customerComments"
-                    name="Customer Comments"
-                    rows="5"
-                    placeholder="Tell us about additional requests, riding goals, delivery questions, or other details."
-                ></textarea>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="review-actions">
-
-        <button
-            class="request-build-button"
-            id="requestBuildButton"
-            type="submit"
-        >
-            Submit Build Request
-        </button>
-
-        <button
-            class="edit-build-button"
-            id="editBuildButton"
-            type="button"
-        >
-            Edit My Build
-        </button>
-
-    </div>
-
-</form>
-
-        </div>
-    </div>
-</section>
-<!-- CONTACT US -->
-<section class="contact-section" id="contact-us">
-    <div class="builder-container">
-
-        <div class="contact-heading">
-            <p class="section-label">Get In Touch</p>
-
-            <h2>Contact Us</h2>
-
-            <p>
-                Have questions about a custom build, repairs, fabrication,
-                or parts? Send us a message and we'll get back to you as soon
-                as possible.
-            </p>
-        </div>
-
-        <form
-            class="contact-form"
-            action="https://api.web3forms.com/submit"
-            method="POST"
-        >
-
-            <input
-                type="hidden"
-                name="access_key"
-                value="d4512a00-a867-43b8-8763-7d67044246be"
-            >
-
-            <input
-                type="hidden"
-                name="subject"
-                value="New Contact Form Submission"
-            >
-
-            <div class="contact-grid">
-
-                <div class="form-field">
-                    <label for="contactName">Full Name</label>
                     <input
-                        id="contactName"
-                        name="Name"
-                        type="text"
-                        required
+                        type="hidden"
+                        name="_subject"
+                        value="New RideCIMM Launch Notification Signup"
                     >
-                </div>
 
-                <div class="form-field">
-                    <label for="contactEmail">Email</label>
-                    <input
-                        id="contactEmail"
-                        name="Email"
-                        type="email"
-                        required
-                    >
-                </div>
+                    <button type="submit">
+                        Notify Me
+                    </button>
 
-                <div class="form-field">
-                    <label for="contactPhone">Phone Number</label>
-                    <input
-                        id="contactPhone"
-                        name="Phone"
-                        type="tel"
-                    >
-                </div>
+                </form>
 
-                <div class="form-field">
-                    <label for="contactTopic">Topic</label>
-
-                    <select
-                        id="contactTopic"
-                        name="Topic"
-                    >
-                        <option>General Question</option>
-                        <option>Custom Build</option>
-                        <option>Parts</option>
-                        <option>Engine Build</option>
-                        <option>Service / Repair</option>
-                    </select>
-                </div>
-
-                <div class="form-field form-field-full">
-                    <label for="contactMessage">
-                        Message
-                    </label>
-
-                    <textarea
-                        id="contactMessage"
-                        name="Message"
-                        rows="6"
-                        required
-                    ></textarea>
-                </div>
+                <p class="form-note">
+                    We’ll only email you about the RideCIMM launch.
+                </p>
 
             </div>
 
-            <button
-                class="request-build-button"
-                type="submit"
-            >
-                Send Message
-            </button>
+        </section>
+    </main>
 
-        </form>
-
-    </div>
-</section>
-
-<footer class="site-footer">
-
-    <div class="footer-container">
-
-        <div class="footer-brand">
-            <h3>Central Iowa Mini Motors</h3>
-
-            <p class="footer-tagline">
-                Custom Mini Bikes • Performance Builds • Parts • Service
-            </p>
-        </div>
-
-        <div class="footer-contact">
-            <h4>Contact</h4>
-
-            <p>
-                <strong>Owner:</strong>
-                Jonathan Ermer
-            </p>
-
-            <p>
-                <span aria-hidden="true">📍</span>
-                Central Iowa
-            </p>
-
-            <p>
-                <span aria-hidden="true">✉</span>
-
-                <a href="mailto:centraliowaminimotors@gmail.com">
-                    centraliowaminimotors@gmail.com
-                </a>
-            </p>
-        </div>
-
-        <div class="footer-social">
-            <h4>Follow Us</h4>
-
-                <a
-                href="https://www.facebook.com/CentralIowaMiniMotors"
-                class="footer-social-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit our Facebook page"
-            >
-                <i class="fa-brands fa-facebook-f"></i>
-                Central Iowa Mini Motors
-            </a>
-        </div>
-
-    </div>
-
-    <div class="footer-bottom">
+    <footer class="coming-soon-footer">
         <p>
             © 2026 Central Iowa Mini Motors, LLC
         </p>
+    </footer>
 
-        <p>
-            Built with Pride in Iowa.
-        </p>
-    </div>
-
-</footer>
-    <script src="script.js"></script>
 </body>
 </html>
